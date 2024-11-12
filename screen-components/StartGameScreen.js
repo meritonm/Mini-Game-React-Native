@@ -10,7 +10,6 @@ function StartGameScreen() {
         keyboardType="number-pad"
         autoCapitalize="none"
         autoCorrect={false}
-        
       />
       <PrimaryButton>Reset</PrimaryButton>
       <PrimaryButton>Confrim</PrimaryButton>
@@ -26,8 +25,9 @@ const styles = StyleSheet.create({
     marginTop: 100,
     marginHorizontal: 24,
     padding: 16,
-    backgroundColor: "#72063c",
+    backgroundColor: "#440424",
     borderRadius: 8,
+    // color: "#fff",
 
     // Android box shadow
     elevation: 4,
@@ -40,6 +40,7 @@ const styles = StyleSheet.create({
   },
 
   numberInput: {
+    alignItems: "center",
     height: 50,
     width: 50,
     fontSize: 32,
