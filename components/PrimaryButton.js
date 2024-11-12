@@ -23,7 +23,8 @@ function PrimaryButton({ children }) {
 }
 const styles = StyleSheet.create({
   buttonOuterContainer: {
-    borderRadius: 8,
+    borderRadius: 10,
+    // width: 140,
     margin: 8,
     overflow: "hidden",
   },
