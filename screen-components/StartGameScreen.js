@@ -32,7 +32,7 @@ const styles = StyleSheet.create({
     marginTop: 100,
     marginHorizontal: 24,
     padding: 16,
-    backgroundColor: "#440424",
+    backgroundColor: "#2c0418",
     borderRadius: 8,
 
     // Android box shadow
