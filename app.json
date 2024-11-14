@@ -2,10 +2,10 @@
   "expo": {
     "name": "Mini-Game-React-Native",
     "slug": "Mini-Game-React-Native",
-    "version": "1.0.0",
+    "sdkVersion": "52.0.0",
+    "platforms": ["ios", "android", "web"],
     "orientation": "portrait",
     "icon": "./assets/icon.png",
-    "userInterfaceStyle": "light",
     "splash": {
       "image": "./assets/splash.png",
       "resizeMode": "contain",
@@ -22,6 +22,10 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": ["**/*"]
   }
 }
