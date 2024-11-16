@@ -122,11 +122,10 @@ function GameScreen({ userNumber, onGameOver }) {
   }, [currentGuess, userNumber, onGameOver]);
 
   useEffect(() => {
-    if (currentGuess === userNumber) {
-      onGameOver();
-    }
-  }, [currentGuess, userNumber, onGameOver]);
-
+    minBoundary = 1;
+    maxBoundary = 100;
+  }, []);
+  // //////////////////////////////
   //Direction => Lower or greater
   function nextGuessHandler(direction) {
     if (
@@ -151,6 +150,7 @@ function GameScreen({ userNumber, onGameOver }) {
     );
     setCurrentGuess(nextRndNumber);
   }
+  console.log(`user number`, userNumber);
 
   return (
     <View style={styles.screen}>
