@@ -14,7 +14,7 @@ const styles = StyleSheet.create({
     color: "#dddddd",
     textAlign: "center",
     borderWidth: 2,
-    borderColor: "#000000",
+    borderColor: "#dddddd",
     padding: 12,
   },
 });
