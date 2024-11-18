@@ -3,7 +3,7 @@
     "name": "Mini-Game-React-Native",
     "slug": "Mini-Game-React-Native",
     "version": "1.0.0",
-    "orientation": "portrait",
+    "orientation": "default",
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
     "splash": {
@@ -28,11 +28,7 @@
     "updates": {
       "fallbackToCacheTimeout": 0
     },
-    "assetBundlePatterns": [
-      "**/*"
-    ],
-    "plugins": [
-      "expo-font"
-    ]
+    "assetBundlePatterns": ["**/*"],
+    "plugins": ["expo-font"]
   }
 }
