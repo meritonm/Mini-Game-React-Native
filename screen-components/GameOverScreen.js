@@ -8,7 +8,7 @@ import {
   ScrollView,
 } from "react-native";
 import React from "react";
-import Title from "../components/ui/Title";
+import Title from "../components/ui/Title.ios";
 import Colors from "../constants/colors";
 import PrimaryButton from "../components/ui/PrimaryButton";
 
